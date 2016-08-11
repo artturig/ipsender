@@ -21,4 +21,4 @@ else:
     f.write(str(ip2))
     f.close()
     #print "different"
-    os.system("echo \" %s \" | mail -s \"mokkula\" artturi@saunalahti.fi" % ip2)
+    os.system("echo \" %s \" | mail -s \"mokkula\" CHANGE@saunalahti.fi" % ip2)
